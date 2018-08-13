@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <!-- Created on Mon, 13 Aug 2018 15:18:48 GMT -->
-  <ShortName>searx.org</ShortName>
+  <ShortName>searx.me</ShortName>
   <Description>a privacy-respecting, hackable metasearch engine</Description>
   <Url type="text/html" method="post" template="https://searx.org/">
     <Param name="q" value="{searchTerms}"/>
