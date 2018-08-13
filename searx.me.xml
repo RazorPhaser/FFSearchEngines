@@ -4,7 +4,7 @@
   <!-- Created on Mon, 13 Aug 2018 15:18:48 GMT -->
   <ShortName>searx.me</ShortName>
   <Description>a privacy-respecting, hackable metasearch engine</Description>
-  <Url type="text/html" method="post" template="https://searx.org/">
+  <Url type="text/html" method="post" template="https://searx.me/">
     <Param name="q" value="{searchTerms}"/>
     <Param name="advanced_search" value="on"/>
     <Param name="category_general" value="on"/>
