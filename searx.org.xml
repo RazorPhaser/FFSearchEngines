@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <!-- Created on Mon, 13 Aug 2018 15:04:13 GMT -->
+  <!-- Created on Mon, 13 Aug 2018 15:10:37 GMT -->
   <ShortName>searx.org</ShortName>
   <Description>a privacy-respecting, hackable metasearch engine</Description>
-  <Url type="text/html" method="get" template="https://searx.org/"/>
-  <Url type="application/x-suggestions+json" template="https://searx.org/"/>
+  <Url type="text/html" method="post" template="https://searx.org/">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
   <!-- <Image width="16" height="16">GENERATEDLATER</Image> -->
   <Developer></Developer>
   <InputEncoding>UTF-8</InputEncoding>
